@@ -2,6 +2,8 @@
 
 ## Overview
 
+![a log example](https://github.com/julienfdev/nestjs-morgan-logger/blob/media/media/log.png?raw=true)
+
 
 We all know and love [morgan](https://www.npmjs.com/package/morgan), the handy Express middleware which esthetically logs HTTP requests to the console. 
 One such feature is lacking in Nest native integration : that's why nestjs-morganlogger exists !

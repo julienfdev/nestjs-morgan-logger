@@ -1,0 +1,24 @@
+{
+  "name": "nestjs-morgan-logger",
+  "version": "1.0.0",
+  "description": "NestJS Morgan Logger wraps the handy morgan npm package inside the native NestJS Logger, providing clear and harmonious logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienfdev/nestjs-morgan-logger.git"
+  },
+  "keywords": [
+    "morgan",
+    "nestjs",
+    "nest"
+  ],
+  "author": "Julien FERAND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienfdev/nestjs-morgan-logger/issues"
+  },
+  "homepage": "https://github.com/julienfdev/nestjs-morgan-logger#readme"
+}

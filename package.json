@@ -1,10 +1,12 @@
 {
-  "name": "nestjs-morgan-logger",
+  "name": "nestjs-morganlogger",
   "version": "1.0.0",
   "description": "NestJS Morgan Logger wraps the handy morgan npm package inside the native NestJS Logger, providing clear and harmonious logging",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,19 @@
   "bugs": {
     "url": "https://github.com/julienfdev/nestjs-morgan-logger/issues"
   },
-  "homepage": "https://github.com/julienfdev/nestjs-morgan-logger#readme"
+  "homepage": "https://github.com/julienfdev/nestjs-morgan-logger#readme",
+  "devDependencies": {
+    "@types/morgan": "^1.9.3",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.2.1",
+    "morgan": "^1.10.0"
+  }
 }

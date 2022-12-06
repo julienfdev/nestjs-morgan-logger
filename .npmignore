@@ -1,0 +1,5 @@
+.prettierc
+.eslintrc
+tsconfig.json
+node_modules
+tsconfig.tsbuildinfo

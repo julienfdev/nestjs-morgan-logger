@@ -1,4 +1,4 @@
-# nestjs-morganlogger
+# nest-morgan-logger
 
 ## Overview
 
@@ -10,11 +10,11 @@ One such feature is lacking in Nest native integration : that's why nestjs-morga
 
 ## Features
 
-nestjs-morganlogger wraps morgan in the native Nest.js logger module. This way, requests are beautifully logged, in an harmonious and "native" way.
+nest-morgan-logger wraps morgan in the native Nest.js logger module. This way, requests are beautifully logged, in an harmonious and "native" way.
 
 ## Usage
 
-nestjs-morganlogger provides a configurable **module** and a **middleware** that can be used as such
+nest-morgan-logger provides a configurable **module** and a **middleware** that can be used as such
 
 - Inside your app.module.ts, import the Module and Middleware :
 

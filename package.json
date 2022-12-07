@@ -1,6 +1,6 @@
 {
   "name": "nest-morgan-logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nest Morgan Logger wraps the handy morgan npm package inside the native NestJS Logger, providing clear and harmonious logging",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
